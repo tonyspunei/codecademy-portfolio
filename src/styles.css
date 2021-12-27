@@ -8,14 +8,23 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  color: var(--font-color);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
-  color: #323232;
-  margin: 0 auto;
+  padding: 0 1rem;
   max-width: 900px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 0 1rem;
 }
 
 h2 {
@@ -94,4 +103,29 @@ summary {
 
 .project-image {
   width: 50%;
+}
+
+/* Skills Styling */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.skills-container > * {
+  font-size: 2em;
+  width: 2em;
+  margin-top: 0.5rem;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: auto;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.heart {
+  color: red;
 }
