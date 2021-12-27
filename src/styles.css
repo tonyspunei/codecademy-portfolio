@@ -129,3 +129,26 @@ footer {
 .heart {
   color: red;
 }
+
+/* Contact Styling */
+.icon {
+  margin: 8px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  .nav-links {
+    margin: 0;
+  }
+  .about-me-container {
+    flex-direction: column;
+  }
+  .portrait {
+    width: fit-content;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
